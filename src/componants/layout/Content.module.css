@@ -1,0 +1,11 @@
+.content{
+    background-color: #B6B6B6;
+    margin: 0 3rem 5rem 3rem;
+    padding: 10px;
+
+}
+@media(max-width : 600px){
+    .content{
+	margin: 0;
+    }
+}

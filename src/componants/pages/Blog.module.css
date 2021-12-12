@@ -1,0 +1,7 @@
+.titleImage{
+    display:flex;
+    justify-content: center;
+}
+.titleImage img{
+    width: 45%;
+}

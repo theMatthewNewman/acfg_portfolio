@@ -1,0 +1,56 @@
+.title{
+    border: 2px solid #494949;
+    background-color: #494949;
+    color: #B6B6B6;
+    
+}
+
+.total{
+    color: #494949;
+    border: 2px solid #494949;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    width: 300px;
+}
+.total h1{
+    padding: 0 2rem;
+}
+.total img{
+    width: 250px;
+    border: 2px solid black;
+    margin: 0 0 2rem 0;
+}
+
+.description{
+    padding: .5rem;
+}
+.description h3{
+    margin: 0 0 2rem 0;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    margin: auto -.5rem;
+    text-align: center;
+}
+
+.links a{
+    border: none;
+    font-size:large;
+    padding: .5rem;
+    width: 9rem;
+    background-color:#B6B6B6;
+    color: #494949;
+    border-radius: 0.3rem;
+    margin: -.5rem 0;
+}
+.links a:hover{
+    background-color:#494949;
+    color: #B6B6B6;
+}
+

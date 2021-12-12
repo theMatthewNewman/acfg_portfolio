@@ -1,0 +1,7 @@
+.GrayBox{
+    margin: 1rem 1rem 0 1rem;
+    padding: 1rem;
+    border: 2px solid #494949;
+    border-radius: 0.5rem;
+    color: #494949;
+}

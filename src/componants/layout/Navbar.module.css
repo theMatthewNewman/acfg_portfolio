@@ -1,0 +1,42 @@
+.navbar{
+    background-color: #828282;
+    margin: 3rem 3rem 0 3rem;
+    display: grid;
+    grid-template-columns: auto 3rem;
+
+}
+
+.navbar button{
+    border: none;
+    padding: 1rem;
+    font-size:large;
+    width: 9rem;
+    outline: inherit;	
+    
+}
+
+.buttonNoSel{
+    background-color: #828282;
+}
+
+.navbar button:hover{
+    background-color: #B6B6B6;
+}
+
+.buttonSel{
+    background-color: #B6B6B6;
+}
+
+.bell{
+    height: 3rem;
+    margin:0;
+    padding:0;
+    float: right;
+}
+
+@media(max-width : 600px){
+    .navbar{
+	margin:0;
+    }
+}
+

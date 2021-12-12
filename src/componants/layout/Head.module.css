@@ -1,0 +1,54 @@
+.box{
+    color: #B6B6B6;
+    margin: 0 20px 0 20px;
+}
+
+.weather{
+    margin-top: 1rem;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+.icon{
+    margin:0;
+    padding:0;
+    grid-row:2 / 6;
+    height: 6rem;
+    
+}
+
+.condition{
+    margin:0;
+    margin-left:1rem;
+    padding:0;
+    grid-row:3;
+    grid-column:2
+}
+
+.location{
+    margin:0;
+    padding:0;
+    grid-column:1 / 3;
+}
+
+.temps{
+    padding:0;
+    margin:0;
+    margin-left:1rem;
+    grid-row:4;
+    grid-column:2;
+}
+
+.name{
+    margin-top: 1rem;
+    float:right;
+}
+
+@media (max-width : 600px){
+    .box{
+	display: grid;
+	grid-template-rows: auto;
+    }
+    .box h1{
+	grid-row: 1;
+    }
+}
